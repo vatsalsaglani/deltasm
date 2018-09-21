@@ -15,6 +15,10 @@
     background-color: #09131B;
 }
 
+* {
+    font-family: 'Ruslan Display', cursive;
+}
+
 .deltaS{
     
 
@@ -184,9 +188,48 @@
     position: fixed;
 }
 
+.contact-title {
+    padding-top: 2vh;
+    
 
+}
 
+.title-content {
+    padding-top: 20px;
+    font-family: 'Ruslan Display', cursive;
+}
 
+.title-content h1{
+    font-family: 'Ruslan Display', cursive;
+    color: aliceblue;
+}
+
+.contact-title h1{
+    font-family: 'Ruslan Display', cursive;
+    font-weight: 300;
+    font-size: 4rem;
+}
+
+.card-design{
+    border-radius: 3%;
+    box-shadow: 1px 1px 0px 3px red;
+   
+}
+
+.card-design img{
+    border: 3px solid rgb(58, 82, 82);
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.card-design li{
+    padding-top: 15px;
+}
+
+.name{
+    font-family: 'Ruslan Display', cursive;
+
+}
 
 
 
@@ -219,6 +262,7 @@
     color: white;
     font-weight: 600;
     display: inline;
+    
 
 
 }
@@ -254,12 +298,23 @@
 
 
 .typed-cursor {
+    font-family: 'Ruslan Display', cursive;
     position: relative;
+    top: 40vh;
+    left: 220px;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    padding-left: 8px;
+    padding-top: 108px;
+    /* position: relative;
+    top: 40vh;
+    left: 220px;
     top: 50px;
     left: 150px;
     font-size: 50px;
     color: white;
-    font-weight: 600;
+    font-weight: 600; */
     opacity: 1;
     animation: blink 1.1s infinite;
 }

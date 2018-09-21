@@ -14,4 +14,11 @@ $(document).ready(function(){
             flag=0;
         }
     });
+
+    $("#contacts").click(function(){
+        $(".main").fadeOut(1000);
+        $(".open").show();
+        $(".close").hide();
+        window.location.hash = '#contact';
+    })
 });
