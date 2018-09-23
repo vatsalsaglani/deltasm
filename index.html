@@ -36,8 +36,8 @@
         <div class="main">
             <div class="menu">
                 <span class="menuItem" data="HOME">HOME</span>
-                <span class="menuItem" data="ABOUT">ABOUT</span>
-                <span class="menuItem" data="PRODUCT">PRODUCT</span>
+                <a href="#about" id="aboutus"><span class="menuItem" data="ABOUT">ABOUT</span></a>
+                <a href="#product" id="products"><span class="menuItem" data="PRODUCT">PRODUCT</span></a>
                 <a href="#contact" id="contacts"><span class="menuItem" data="CONTACT">CONTACT</span></a>
 
 
@@ -47,11 +47,11 @@
 
 
 
-        <div> 
+        <div>
             <div class="introduction container">
                 <div class="uk-align-center uk-text-center intro-image" id="first">
                     <!-- <span class="element"></span> -->
-                    
+
 
 
                 </div>
@@ -69,18 +69,101 @@
         </div>
 
     </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="uk-container">
+            <h1 class="uk-heading-line uk-text-center deltaS"><span style="color: black;">ABOUT US</span></h1>
+
+            <div class=" uk-child-width-expand@s" id="about_content" uk-grid>
+                <div class="text_about">
+                    <h1 class="title_about">Delta Smartphones</h1>
+                    <h3 class="subtitle_about">Ready To GAME!</h3>
+                    <p>
+                        We are driven with innovation and inspiration to create a beautiful gaming smartphone which
+                        will be a gaming beast where you can do all the work you do on a regular smartphone plus an
+                        advantage to game.
+                    </p>
+                    <p>
+                        Our unfathomable efforts have helped us to design and develop a beautiful piece of tech where
+                        anyone can game on the go, no need for a laptop or a desktop.
+                    </p>
+                    <p>
+                        We provide the best smartphone experience over all the market with the prices that your pockets
+                        can handle.
+                    </p>
+                    <p>
+                        We believe in quality and innovation and keeping in mind the needs of the new generation of the
+                        century we have designed a performance and power beast.
+                    </p>
+                </div>
+                <div class="image_about" style="float: right">
+                    <img src="images/delta.png" alt="" height="400" width="400">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT -->
+    <section class="product" id="product">
+        <div class="product_title">
+            <h1 class="uk-heading-line uk-text-center deltaS"><span style="color: white;">PRODUCTS</span></h1>
+        </div>
+        <div class="uk-container">
+            <div class="uk-child-width-expand@s uk-text-center" uk-grid="parallax: 150">
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body uk-grid-margin">
+                        <h3>MARK 1</h3>
+                        <a class="uk-button uk-button-primary" href="#modal-media-image" uk-toggle>PRICE</a>
+                        <div id="modal-media-image" class="uk-flex-top" uk-modal>
+                            <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                                <button class="uk-modal-close-outside" type="button" uk-close></button>
+                                <img src="images/price.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card uk-card-default uk-card-body uk-grid-margin"><h1>MARK 2</h1>
+                            <a class="uk-button uk-button-primary" href="#modal-media-image" uk-toggle>PRICE</a>
+
+                    </div>
+
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body uk-grid-margin"><h1>MARK 1</h1>
+                            <a class="uk-button uk-button-primary" href="#modal-media-image" uk-toggle>PRICE</a>
+
+                    </div>
+
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body uk-grid-margin"><h1>MARK 2</h1>
+                            <a class="uk-button uk-button-primary" href="#modal-media-image" uk-toggle>PRICE</a>
+
+                    </div>
+                    <div class="uk-card uk-card-default uk-card-body uk-grid-margin"><h1>MARK 2</h1>
+                            <a class="uk-button uk-button-primary" href="#modal-media-image" uk-toggle>PRICE</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
     <!-- contact section -->
     <section id="contact" class="contact uk-height-large uk-background-cover " uk-parallax="bgy: -200; sepia: 100"
-        style="background-color: teal;">
+        style="background-color: whitesmoke;">
         <div class="title-content uk-align-center">
-            <h1 class="uk-text-center">Contact</h1>
+                <h1 class="uk-heading-line uk-text-center deltaS"><span style="color: black;">CONTACT</span></h1>
 
         </div>
         <div class=" uk-container uk-container-small">
             <div class="contact-content uk-child-width-expand@s" uk-grid>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body card-design">
-                        <div  uk-grid>
+                        <div uk-grid>
                             <div class="uk-align-left">
                                 <h2 class="uk-text-left name">Vatsal</h2>
                                 <img src="https://picsum.photos/200/200/?random
@@ -99,9 +182,9 @@
                 </div>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body card-design">
-                        <div  uk-grid>
+                        <div uk-grid>
                             <div class="uk-align-left">
-                                <h2 class="uk-text-left name">Pratap</h2>
+                                <h2 class="uk-text-left name">Shivam</h2>
                                 <img src="https://picsum.photos/200/200/?random
 " alt="" height="100" width="100">
                             </div>
@@ -131,7 +214,7 @@
             </div> -->
     </section>
 
-  
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.js"></script>

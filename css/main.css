@@ -15,9 +15,9 @@
     background-color: #09131B;
 }
 
-* {
+/* * {
     font-family: 'Ruslan Display', cursive;
-}
+} */
 
 .deltaS{
     
@@ -26,6 +26,51 @@
 
 
 }
+
+.about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+#about_content{
+    border-radius: 4%;
+}
+
+.text_about {
+    background-color: aquamarine;
+    width: 100%;
+    padding-right: 10px;
+}
+.title_about{
+    padding-top: 10px;
+}
+.text_about p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    color: black;
+}
+.subtitle_about{
+    color: red;
+}
+
+.image_about img{
+    float: right;
+    border: 3px solid black;
+}
+.image_about {
+    background-color: beige;
+    width: 100%;
+
+}
+
+#product {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 .menuIcon {
     width: 30px;

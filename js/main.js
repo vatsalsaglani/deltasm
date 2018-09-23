@@ -21,4 +21,17 @@ $(document).ready(function(){
         $(".close").hide();
         window.location.hash = '#contact';
     })
+    $("#products").click(function(){
+        $(".main").fadeOut(1000);
+        $(".open").show();
+        $(".close").hide();
+        window.location.hash = '#product';
+    })
+    $("#aboutus").click(function(){
+        $(".main").fadeOut(1000);
+        $(".open").show();
+        $(".close").hide();
+        window.location.hash = '#about';
+    })
+
 });
